@@ -1,0 +1,12 @@
+:root{--ink:#1a294d;--cream:#fff7e3;--teal:#24bac9;--card:#fff;--muted:#5b6478}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+header .dot{width:40px;height:40px;border-radius:12px;background:var(--teal)}
+h1{font-size:2rem;margin:0}
+h2{margin-top:2rem}
+nav{margin:8px 0 24px;display:flex;gap:16px;flex-wrap:wrap}
+a{color:#127f8a}
+section.lang{background:var(--card);border-radius:20px;padding:20px 24px;margin:20px 0;box-shadow:0 2px 0 rgba(120,80,40,.12)}
+.muted{color:var(--muted);font-size:.9rem}
